@@ -25,7 +25,7 @@ $f(n)\in O(g(n)) \iff \exists c,n_0 > 0, \forall n\ge n_0: f(n) \le c g(n)$
 
 The differences between the two definitions is that within big-O there is a constant "c" meaning that only one constant needs to pre present in order for the f(n) to be within big-O. Whereas in little-o it is all constants "c" there is not the acception that big-O has. The notation in Little-O it is $\forall c>0$, whereas in Big-O it only uses $\exists c>0$. Another difference is the inequalities involved in the two notations. Little-O's inequality indicates that $g(n)$ will grow faster than $f(n)$. Big-O's inequality implies that $f(n)$ will grow, at most, as fast as $g(n)$. The difference in the inequaity shows that little o is more strict than big O so therefore $f(n)\in o(g(n))$ implies that $f(n)\in O(g(n))$.
 
-Needed Google for the definitions adn references geeksforgeeks on Big-O and little-o behavior.
+Needed Google for the definitions and references geeksforgeeks on Big-O and little-o behavior.
 https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/#definition-of-bigo-notation
 https://www.geeksforgeeks.org/analysis-of-algorithems-little-o-and-little-omega-notations/
 
